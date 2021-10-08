@@ -1,0 +1,9 @@
+# Virtual env
+venv/
+
+# Logs
+*.log
+
+# Secrets
+secret.cfg
+super_secret.vault_pass

@@ -1,0 +1,18 @@
+[0;35m[DEPRECATION WARNING]: Ansible will require Python 3.8 or newer on the [0m
+[0;35mcontroller starting with Ansible 2.12. Current version: 3.6.8 (default, Nov 16 [0m
+[0;35m2020, 16:55:22) [GCC 4.8.5 20150623 (Red Hat 4.8.5-44)]. This feature will be [0m
+[0;35mremoved from ansible-core in version 2.12. Deprecation warnings can be disabled[0m
+[0;35m by setting deprecation_warnings=False in ansible.cfg.[0m
+[1;35m[WARNING]: No inventory was parsed, only implicit localhost is available[0m
+[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that[0m
+[1;35mthe implicit localhost does not match 'all'[0m
+[0;31mERROR! this task 'debug' has extra params, which is only allowed in the following modules: ansible.legacy.raw, ansible.builtin.include, include, ansible.windows.win_shell, ansible.builtin.win_command, include_vars, ansible.builtin.import_role, set_fact, command, ansible.legacy.script, ansible.legacy.include_role, ansible.legacy.import_tasks, include_tasks, ansible.windows.win_command, meta, ansible.builtin.meta, ansible.legacy.win_shell, ansible.legacy.group_by, ansible.legacy.include_tasks, ansible.legacy.include_vars, import_tasks, ansible.builtin.import_tasks, ansible.legacy.add_host, ansible.builtin.script, ansible.legacy.command, add_host, ansible.builtin.win_shell, ansible.legacy.meta, shell, script, ansible.builtin.raw, ansible.builtin.group_by, ansible.legacy.shell, win_command, include_role, ansible.legacy.import_role, ansible.builtin.include_vars, ansible.legacy.win_command, raw, ansible.builtin.command, import_role, ansible.builtin.add_host, ansible.legacy.include, ansible.legacy.set_fact, win_shell, ansible.builtin.shell, ansible.builtin.include_role, ansible.builtin.include_tasks, ansible.builtin.set_fact, group_by[0m
+[0;31m[0m
+[0;31mThe error appears to be in '/home/dpupo/ansible-runner/project/test.yml': line 8, column 7, but may[0m
+[0;31mbe elsewhere in the file depending on the exact syntax problem.[0m
+[0;31m[0m
+[0;31mThe offending line appears to be:[0m
+[0;31m[0m
+[0;31m[0m
+[0;31m    - debug: msg= "Test!"[0m
+[0;31m      ^ here[0m
