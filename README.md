@@ -1,7 +1,8 @@
 # ansible-runner
 Trying to do the examples from the documentation: 
 Work in progress...
-python3.8 runner_ansible.py 
+python3.8 runner_ansible.py
+```
 [DEPRECATION WARNING]: Ansible will require Python 3.8 or newer on the 
 controller starting with Ansible 2.12. Current version: 3.6.8 (default, Nov 16 
 2020, 16:55:22) [GCC 4.8.5 20150623 (Red Hat 4.8.5-44)]. This feature will be 
@@ -29,5 +30,7 @@ playbook_on_start
 playbook_on_play_start
 playbook_on_no_hosts_matched
 playbook_on_stats
+
 Final status: 
 {'skipped': {}, 'ok': {}, 'dark': {}, 'failures': {}, 'ignored': {}, 'rescued': {}, 'processed': {}, 'changed': {}}
+```
