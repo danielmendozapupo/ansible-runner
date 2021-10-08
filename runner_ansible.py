@@ -1,7 +1,7 @@
 import ansible_runner
 
 if __name__ == '__main__':
-    runner = ansible_runner.run(private_data_dir='/home/dpupo/ansible-runner/inventory', playbook='/home/dpupo/ansible-runner/project/test.yml')
+    runner = ansible_runner.run(private_data_dir='/home/dpupo/ansible-runner/', playbook='/home/dpupo/ansible-runner/project/test.yml')
     print("{}: {}".format(runner.status, runner.rc))
 
     # Successful: 0
