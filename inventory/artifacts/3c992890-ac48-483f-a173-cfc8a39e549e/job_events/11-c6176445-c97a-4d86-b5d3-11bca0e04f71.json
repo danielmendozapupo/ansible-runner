@@ -1,1 +1,0 @@
-{"event": "verbose", "uuid": "c6176445-c97a-4d86-b5d3-11bca0e04f71", "counter": 11, "stdout": "\u001b[0;31mThe error appears to be in '/home/dpupo/ansible-runner/project/test.yml': line 4, column 7, but may\u001b[0m", "start_line": 10, "end_line": 11, "runner_ident": "3c992890-ac48-483f-a173-cfc8a39e549e", "created": "2021-10-08T20:54:13.731660"}

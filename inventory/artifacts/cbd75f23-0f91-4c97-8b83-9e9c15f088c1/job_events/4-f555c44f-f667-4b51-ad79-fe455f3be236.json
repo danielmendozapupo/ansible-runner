@@ -1,1 +1,0 @@
-{"event": "verbose", "uuid": "f555c44f-f667-4b51-ad79-fe455f3be236", "counter": 4, "stdout": "\u001b[0;35mremoved from ansible-core in version 2.12. Deprecation warnings can be disabled\u001b[0m", "start_line": 3, "end_line": 4, "runner_ident": "cbd75f23-0f91-4c97-8b83-9e9c15f088c1", "created": "2021-10-08T21:15:55.003361"}

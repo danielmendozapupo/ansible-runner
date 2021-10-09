@@ -1,1 +1,0 @@
-{"event": "verbose", "uuid": "4a3908e8-1fac-48d8-b797-6a47b810af83", "counter": 1, "stdout": "\u001b[0;35m[DEPRECATION WARNING]: Ansible will require Python 3.8 or newer on the \u001b[0m", "start_line": 0, "end_line": 1, "runner_ident": "65dda203-a111-46e5-9645-4fa89effe02b", "created": "2021-10-08T21:06:53.932142"}

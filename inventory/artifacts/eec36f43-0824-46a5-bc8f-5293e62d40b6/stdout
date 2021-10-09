@@ -1,6 +1,0 @@
-[0;35m[DEPRECATION WARNING]: Ansible will require Python 3.8 or newer on the [0m
-[0;35mcontroller starting with Ansible 2.12. Current version: 3.6.8 (default, Nov 16 [0m
-[0;35m2020, 16:55:22) [GCC 4.8.5 20150623 (Red Hat 4.8.5-44)]. This feature will be [0m
-[0;35mremoved from ansible-core in version 2.12. Deprecation warnings can be disabled[0m
-[0;35m by setting deprecation_warnings=False in ansible.cfg.[0m
-[0;31mERROR! the playbook: ./project/test.yml could not be found[0m
