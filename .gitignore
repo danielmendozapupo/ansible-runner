@@ -1,6 +1,9 @@
 # Virtual env
 venv/
 
+#artifacts
+demo/artifacts
+
 # Logs
 *.log
 
