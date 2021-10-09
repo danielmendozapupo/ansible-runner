@@ -1,36 +1,31 @@
-# ansible-runner
-Trying to do the examples from the documentation: 
-Work in progress...
-python3.8 runner_ansible.py
+Execute the following command line instruction
+$ ansible-runner run demo --playbook test.yml
 ```
 [DEPRECATION WARNING]: Ansible will require Python 3.8 or newer on the 
 controller starting with Ansible 2.12. Current version: 3.6.8 (default, Nov 16 
 2020, 16:55:22) [GCC 4.8.5 20150623 (Red Hat 4.8.5-44)]. This feature will be 
 removed from ansible-core in version 2.12. Deprecation warnings can be disabled
  by setting deprecation_warnings=False in ansible.cfg.
-[WARNING]: No inventory was parsed, only implicit localhost is available
-[WARNING]: provided hosts list is empty, only localhost is available. Note that
-the implicit localhost does not match 'all'
 
 PLAY [all] *********************************************************************
-skipping: no hosts matched
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [include_role : testrole] *************************************************
+
+TASK [testrole : just print a message to stdout] *******************************
+ok: [localhost] => {
+    "msg": "hello from the ansible-runner testrole!"
+}
+
+TASK [debug] *******************************************************************
+ok: [localhost] => {
+    "msg": "Test!"
+}
 
 PLAY RECAP *********************************************************************
-
-successful: 0
-verbose
-verbose
-verbose
-verbose
-verbose
-verbose
-verbose
-verbose
-playbook_on_start
-playbook_on_play_start
-playbook_on_no_hosts_matched
-playbook_on_stats
-
-Final status: 
-{'skipped': {}, 'ok': {}, 'dark': {}, 'failures': {}, 'ignored': {}, 'rescued': {}, 'processed': {}, 'changed': {}}
+localhost                  : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
 ```
+To use the python Script:
+
